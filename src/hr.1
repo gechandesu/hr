@@ -1,0 +1,24 @@
+.\" vim: set filetype=groff:
+.TH HR 1 "2023-02-13" "hr 0.1.0"
+.SH NAME
+hr - A horizontal ruler for your terminal.
+.SH SYNOPSYS
+.SY hr
+.BI [ string ]...
+.YS
+.SH DESCRIPTION
+.PP
+Print line with passed characters till the end of terminal window.
+.SH EXAMPLES
+.EX
+$ hr +
+++++++++++++++++++++++++++++++++++++++++++++++++
+$ hr x0
+x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0
+$ hr = + =
+================================================
+------------------------------------------------
+================================================
+.EE
+.SH SEE ALSO
+.BR ncurses (3X)
