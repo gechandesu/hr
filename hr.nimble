@@ -5,6 +5,7 @@ author        = "ge"
 description   = "A horizontal ruler for your terminal"
 license       = "Unlicense"
 srcDir        = "src"
+binDir        = "build"
 bin           = @["hr"]
 
 
